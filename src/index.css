@@ -1,0 +1,61 @@
+:root {
+  --soft-cyan: hsl(174, 77%, 80%);
+  /* full slider bar */
+  --strong-cyan: hsl(174, 86%, 45%);
+  /* slider background */
+  --light-grayish-red: hsl(14, 92%, 95%);
+  /* discount background */
+  --light-red: hsl(15, 100%, 70%);
+  /* discount text */
+  --pale-blue: hsl(226, 100%, 87%);
+  /* cta text */
+  --white: hsl(0, 0%, 100%);
+  /* pricing component bg */
+  --very-pale-blue: hsl(230, 100%, 99%);
+  /* main bg */
+  --empty-slider-bar: hsl(224, 65%, 95%);
+  --toggle-background: hsl(223, 50%, 87%);
+  --grayish-blue: hsl(225, 20%, 60%);
+  /* body text */
+  --dark-blue: hsl(227, 35%, 25%);
+  /* heading text + cta bg */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('./public/bg-pattern.svg') no-repeat;
+  background-size: 1440px 400px;
+  font-family: 'Manrope', sans-serif;
+}
+
+@media screen and (min-width: 935px) {
+  body {
+    background-size: unset;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-position-x: center;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,49 @@
+.cta {
+  width: 170px;
+  height: 41px;
+  background-color: hsl(227, 35%, 25%);
+  border: none;
+  border-radius: 20.5px;
+  color: hsl(226, 100%, 87%);
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* FIX FOR MOBILE */
+.cta:hover {
+  color: #fff;
+}
+
+.toggle {
+  /* --size: 17px; */
+  width: 43px;
+  height: 22px;
+  background-color: hsl(223, 50%, 87%);
+  border: none;
+  border-radius: 15px;
+  position: relative;
+}
+
+.toggle::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transition: left 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+/* FIX FOR MOBILE */
+.toggle:hover {
+  background-color: hsl(174, 73%, 70%);
+  transition: background 0.3s;
+}
+
+.toggle.checked::after {
+  left: 75%;
+}

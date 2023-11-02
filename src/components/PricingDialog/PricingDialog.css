@@ -1,0 +1,36 @@
+.dialog {
+  max-width: 85%;
+  min-width: 327px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 32px auto;
+  padding: 34px 0 32px;
+  filter: drop-shadow(0 20px 30px rgba(127, 137, 185, 15%));
+}
+
+hr {
+  border: 1px solid hsl(224, 65%, 95%);
+  margin-top: 38px;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 600px) {
+  .dialog {
+    max-width: 540px;
+  }
+
+  hr {
+    margin-top: 40px;
+  }
+
+  .cta-desktop {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+  }
+}
