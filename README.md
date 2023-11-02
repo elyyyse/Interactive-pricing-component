@@ -48,6 +48,7 @@ Users should be able to:
 ### Continued development
 
 - This was my first solo React project, so there's a lot of development opportunity here - getting more comfortable with the framework, improving my component design, starting to use custom hooks more.
+- I used Vite to quickly get up and running, but I plan to learn Next.js for full stack React soon.
 - I will definitely look into CSS Modules or styled-components for my next project. I wanted to minimize how much new I was taking on with this project, so I stuck with the plain CSS that I know.
 
 ## Author
