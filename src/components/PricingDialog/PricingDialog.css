@@ -22,6 +22,7 @@ hr {
 @media screen and (min-width: 600px) {
   .dialog {
     max-width: 540px;
+    margin: 54px auto;
   }
 
   hr {
